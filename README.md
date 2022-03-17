@@ -1,2 +1,3 @@
-# bin
-My bin files 
+# Bin
+
+My bin files.

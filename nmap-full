@@ -1,0 +1,9 @@
+#!/bin/bash
+nmap \
+    -oX out.nmap \
+    -sC \
+    -sV \
+    -T4 \
+    -A \
+    $@
+echo "Wrote nmap.out..."

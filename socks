@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# localhost listen port
+port="1313"
+# addr from arg1
+addr=$1
+
+echo "Starting socks proxy on localhost:$port..."
+echo "Connecting to SSH $addr..."
+ssh -D $port -q -C -N $addr
